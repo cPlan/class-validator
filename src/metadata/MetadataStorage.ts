@@ -94,7 +94,7 @@ export class MetadataStorage {
             });
         });
 
-        return originalMetadatas.concat(uniqueInheritedMetadatas);
+        return originalMetadatas; //.concat(uniqueInheritedMetadatas);
     }
 
     /**
